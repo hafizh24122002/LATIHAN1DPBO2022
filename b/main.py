@@ -13,8 +13,10 @@ for i in range(n):
 	print("masukkan tahun berdiri tim", (i+1), ":")
 	year_founded = int(input())
 
-	print("masukkan jumlah pemain yang akan di input:")
+	print("masukkan jumlah pemain yang akan di input pada tim" , (i+1), ":")
 	m = int(input())
+
+	print("masukkan nama pemain pada tim", (i+1), ":")
 	player = [None] * m
 	for j in range(m):
 		player[j] = input()
